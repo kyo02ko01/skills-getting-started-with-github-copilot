@@ -48,3 +48,17 @@ The application uses a simple data model with meaningful identifiers:
    - Grade level
 
 All data is stored in memory, which means data will be reset when the server restarts.
+
+## Tests
+
+Install the development dependencies from the repository root:
+
+```
+pip install -r requirements-dev.txt
+```
+
+Run the backend API tests from the repository root:
+
+```
+python -m pytest backend/tests -q
+```
